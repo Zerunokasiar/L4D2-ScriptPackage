@@ -21,7 +21,7 @@ WeaponData
 
 	"Rumble"			"1"
 	
-	"Damage"			"72"
+	"Damage"			"18"
 	"CycleTime"			"0.15"
 	
 	"ResponseRulesName"		"Chainsaw"
