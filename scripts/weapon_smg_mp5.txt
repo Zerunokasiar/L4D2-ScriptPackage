@@ -56,11 +56,11 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"2"
-	"PenetrationPower"			"30"
+	"PenetrationPower"			"24"
 	"PenetrationMaxDistance"	"512"	// none
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"30"
+	"Damage"			"24"
 	"Range"				"5120
 	"
 	"RangeModifier"			"0.84"
