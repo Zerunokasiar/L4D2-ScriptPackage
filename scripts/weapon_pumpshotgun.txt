@@ -55,12 +55,12 @@ WeaponData
 	"CanEquipWithShield"	"0"
 	
 	// Weapon characteristics:
-	"PenetrationNumLayers"		"3"
-	"PenetrationPower"			"33"
+	"PenetrationNumLayers"		"2"
+	"PenetrationPower"			"30"
 	"PenetrationMaxDistance"	"512"
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"33"	// 22
+	"Damage"			"30"	// 22
 	"Range"				"3072"
 	"RangeModifier"		"0.7"	// 0.96
 	"Bullets"			"15"

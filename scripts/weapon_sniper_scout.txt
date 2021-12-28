@@ -55,7 +55,7 @@ WeaponData
 	"Rumble"			"2"
 	
 	// Weapon characteristics:
-	"PenetrationNumLayers"		"5"
+	"PenetrationNumLayers"		"4"
 	"PenetrationPower"			"500"
 	"PenetrationMaxDistance"	"8192"	// none
 	"CharacterPenetrationMaxDistance" "8192" // Shooting through infected is doesn't count against penetration count out to this range
