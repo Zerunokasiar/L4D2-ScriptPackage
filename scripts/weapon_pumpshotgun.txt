@@ -1,17 +1,17 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"5"
-	"SpreadPerShot"			"30"
-	"MaxSpread"			"5"
+	"VerticalPunch"			"5.00"
+	"SpreadPerShot"			"30.0"
+	"MaxSpread"				"5"
 	"SpreadDecay"			"6"
 	"MinDuckingSpread"		"0"
 	"MinStandingSpread"		"0"
 	"MinInAirSpread"		"2.5"  //increased accuracy
 	"MaxMovementSpread"		"1.5"  //increased accuracy
-	"PelletScatterPitch"		"2"  //increased accuracy
+	"PelletScatterPitch"	"2"  //increased accuracy
 	"PelletScatterYaw"		"4"
-	"ReloadDuration"		"0.473"
+	"ReloadDuration"		"0.396"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
 	
@@ -61,8 +61,8 @@ WeaponData
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
 	"Damage"			"30"	// 22
-	"Range"				"3072"
-	"RangeModifier"		"0.7"	// 0.96
+	"Range"				"4096"
+	"RangeModifier"		"0.75"	// 0.96
 	"Bullets"			"15"
 	"CycleTime"			"0.5"
 	

@@ -3,10 +3,10 @@ WeaponData
 	// Terror-specific Data --------------------
 	"VerticalPunch"			"1.00"
 	"SpreadPerShot"			"0.50"
-	"MaxSpread"				"25"
-	"SpreadDecay"			"5"
-	"MinDuckingSpread"		"0.75"
-	"MinStandingSpread"		"1.00"
+	"MaxSpread"				"20"
+	"SpreadDecay"			"6"
+	"MinDuckingSpread"		"0.50"
+	"MinStandingSpread"		"0.75"
 	"MinInAirSpread"		"2.5"
 	"MaxMovementSpread"		"1.5"
 	"AddonAttachment"		"primary"
@@ -65,7 +65,7 @@ WeaponData
 	"
 	"RangeModifier"			"0.84"
 	"Bullets"			"1"
-	"CycleTime"			"0.08"
+	"CycleTime"			"0.083"
 
 	"TimeToIdle"			"2"
 	"IdleInterval"			"20"

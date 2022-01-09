@@ -63,7 +63,7 @@ WeaponData
 	"Range"				"5120"
 	"RangeModifier"			"0.84"
 	"Bullets"			"1"
-	"CycleTime"			"0.09"
+	"CycleTime"			"0.092"
 
 	"TimeToIdle"			"2"
 	"IdleInterval"			"20"

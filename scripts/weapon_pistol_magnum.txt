@@ -1,16 +1,16 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"1.50"
-	"SpreadPerShot"			"1.25"
-	"MaxSpread"			"20"
+	"VerticalPunch"			"4.00"
+	"SpreadPerShot"			"1.75"
+	"MaxSpread"				"20"
 	"SpreadDecay"			"5"
 	"MinDuckingSpread"		"0.1"
 	"MinStandingSpread"		"0.25"
-	"MinInAirSpread"		"1.5"
-	"MaxMovementSpread"		"2.5"
+	"MinInAirSpread"		"2.0"
+	"MaxMovementSpread"		"4.5"
 	"DeployDuration"		"0.5"
-	"DualDeployDuration"		"0.65"
+	"DualDeployDuration"	"0.65"
 	"AddonAttachment"		"pistol"
 	"addon_offset"			"2 0 -2"
 	"addon_angles"			"0 0 0"	
@@ -59,16 +59,16 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"3"
-	"PenetrationPower"		"125"
+	"PenetrationPower"		"120"
 	"PenetrationMaxDistance"	"512"	// none
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"125"
+	"Damage"			"120"
 	"Range"				"6144"
-	"RangeModifier"			"0.97"
+	"RangeModifier"			"0.90"
 	"Bullets"			"1"
 	//"CycleTime"			"0.15"
-	"CycleTime"			"0.22"
+	"CycleTime"			"0.225"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"Magnum"

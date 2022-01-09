@@ -1,11 +1,11 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"1.5"
-	"SpreadPerShot"			"1"
-	"MaxSpread"				"30"
+	"VerticalPunch"			"3.00"
+	"SpreadPerShot"			"1.50"
+	"MaxSpread"				"20"
 	"SpreadDecay"			"5"
-	"MinDuckingSpread"		"0.5"
+	"MinDuckingSpread"		"0.50"
 	"MinStandingSpread"		"0.75"
 	"MinInAirSpread"		"1.5"
 	"MaxMovementSpread"		"2.5"
@@ -45,7 +45,7 @@ WeaponData
 	"MaxPlayerSpeed"		"250"
 	"WeaponType"			"pistol"
 	"WeaponPrice"			"500"
-	"WeaponArmorRatio"		"1.0"
+	"WeaponArmorRatio"		"1.4"
 	"CrosshairMinDistance"		"8"
 	"CrosshairDeltaDistance" 	"3"
 	"BuiltRightHanded" 		"1"
@@ -53,22 +53,24 @@ WeaponData
 	"MuzzleFlashScale"		"1"
 	
 	"CanEquipWithShield" 		"1"
+	"NoiseFactor" 			"250"
 
 	"Rumble"			"1"
 	
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"3"
-	"PenetrationPower"			"50"
+	"PenetrationPower"			"80"
 	"PenetrationMaxDistance"	"512"	// none
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"50"
-	"Range"				"4096"
-	"RangeModifier"			"0.75"
+	"Damage"			"80"
+	"Range"				"6144"
+	"RangeModifier"			"0.90"
 	"Bullets"			"1"
-	"CycleTime"			"0.15"
-	//"CycleTime"			"0.175"
+	//"CycleTime"			"0.15"
+	"CycleTime"			"0.175"
+	//"CycleTime"			"0.225"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"Pistol"
@@ -98,7 +100,7 @@ WeaponData
 	"bucket"			"1"
 	"bucket_position"		"0"
 
-	"clip_size"			"20"
+	"clip_size"			"8"
 	
 	"primary_ammo"			"AMMO_TYPE_PISTOL"
 	"secondary_ammo"		"None"
