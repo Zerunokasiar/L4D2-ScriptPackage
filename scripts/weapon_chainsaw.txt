@@ -45,12 +45,12 @@ WeaponData
 	}
 
 	"anim_prefix"			"anim"
-	"bucket"			"0"
-	"bucket_position"		"0"
+	"bucket"			"1"
+	"bucket_position"		"1"
 	
 	"clip_size"			"60"
 
-	"primary_ammo"			"None"//"AMMO_TYPE_CHAINSAW"
+	"primary_ammo"			"AMMO_TYPE_CHAINSAW"
 	"secondary_ammo"		"None"
 
 	"weight"				"5"
