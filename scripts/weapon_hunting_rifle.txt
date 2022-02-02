@@ -7,7 +7,7 @@ WeaponData
 	"SpreadDecay"			"8"
 	"MinDuckingSpread"		"0.0"
 	"MinStandingSpread"		"0.1"
-	"MinInAirSpread"		"2.0"
+	"MinInAirSpread"		"2.5"
 	"MaxMovementSpread"		"4.5"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
