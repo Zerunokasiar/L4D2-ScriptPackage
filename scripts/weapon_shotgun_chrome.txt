@@ -15,7 +15,7 @@ WeaponData
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
 	
-	"Tier"					"2"		// valid entries are 0, 1, 2
+	"Tier"					"1"		// valid entries are 0, 1, 2
 	
 	"ResponseRulesName"		"Shotgun_Chrome"
 
