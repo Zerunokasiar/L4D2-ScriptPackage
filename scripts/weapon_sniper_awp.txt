@@ -8,7 +8,7 @@ WeaponData
 	"MinDuckingSpread"		"0"
 	"MinStandingSpread"		"0.1"
 	"MinInAirSpread"		"3"
-	"MaxMovementSpread"		"7.5"
+	"MaxMovementSpread"		"5.5"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
 	
@@ -45,7 +45,7 @@ WeaponData
 	"MaxPlayerSpeed"		"210"
 	"WeaponType"			"sniper_rifle"
 	"WeaponPrice"			"4200"
-	"NoiseFactor"			"500"	// 1 second glow after firing
+	"NoiseFactor"			"850"	// 1 second glow after firing
 	"WeaponArmorRatio"		"2.0"
 	"CrosshairMinDistance"		"8"
 	"CrosshairDeltaDistance"	"3"
@@ -59,12 +59,12 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"5"
-	"PenetrationPower"			"750"
+	"PenetrationPower"			"600"
 	"PenetrationMaxDistance"	"8192"	// none
 	"CharacterPenetrationMaxDistance" "8192" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"750"
-	"Range"				"10240"
+	"Damage"			"600"
+	"Range"				"10000"
 	"RangeModifier"			"1.0"
 	"Bullets"			"1"
 	"CycleTime"			"1.00"

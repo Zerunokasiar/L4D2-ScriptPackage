@@ -7,7 +7,7 @@ WeaponData
 	"SpreadDecay"			"5"
 	"MinDuckingSpread"		"0"
 	"MinStandingSpread"		"0"
-	"MinInAirSpread"		"2.5"
+	"MinInAirSpread"		"1.0"
 	"MaxMovementSpread"		"1.5"
 	"ReloadDuration"		"-1"
 	"AddonAttachment"		"primary"
@@ -52,16 +52,16 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"5"
-	"PenetrationPower"			"512"
+	"PenetrationPower"			"1000"
 	"PenetrationMaxDistance"	"512"	// none
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"512"
-	"Range"				"8192"
+	"Damage"			"1000"
+	"Range"				"8000"
 	"RangeModifier"			"1.0"
 //	"GainRange"			"1500"	// range at which to use a gain curve to fall off to zero
 	"Bullets"			"1"
-	"CycleTime"			"0.333"
+	"CycleTime"			"1"
 
 	"TimeToIdle"			"1.5"
 	"IdleInterval"			"60"

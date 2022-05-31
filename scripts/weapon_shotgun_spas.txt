@@ -7,10 +7,10 @@ WeaponData
 	"SpreadDecay"			"6"
 	"MinDuckingSpread"		"0"
 	"MinStandingSpread"		"0"
-	"MinInAirSpread"		"2.5"
+	"MinInAirSpread"		"1.0"
 	"MaxMovementSpread"		"1.5"
-	"PelletScatterPitch"	"4"
-	"PelletScatterYaw"		"6"
+	"PelletScatterPitch"	"5"
+	"PelletScatterYaw"		"5"
 	"ReloadDuration"		"0.396"
 	"AddonAttachment"		"primary"
 	"team"					"survivor"
@@ -59,15 +59,15 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"2"
-	"PenetrationPower"			"21"
+	"PenetrationPower"			"15"
 	"PenetrationMaxDistance"	"512"
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"21"
-	"Range"				"3072"
+	"Damage"			"15"
+	"Range"				"3000"
 	"RangeModifier"			"0.7"
 	"Bullets"			"15"
-	"CycleTime"			"0.15"
+	"CycleTime"			"0.086"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"Auto Shotgun"
@@ -91,9 +91,9 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"8"  //increased from 9
+	"clip_size"			"32"  //increased from 9
 	
-	"primary_ammo"			"AMMO_TYPE_AUTOSHOTGUN"
+	"primary_ammo"			"AMMO_TYPE_HUNTINGRIFLE"
 	"secondary_ammo"		"None"
 
 	"weight"			"5"

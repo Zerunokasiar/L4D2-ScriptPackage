@@ -7,7 +7,7 @@ WeaponData
 	"SpreadDecay"			"6"
 	"MinDuckingSpread"		"0"
 	"MinStandingSpread"		"0.1"
-	"MinInAirSpread"		"2.5"  //increased accuracy
+	"MinInAirSpread"		"1.0"  //increased accuracy
 	"MaxMovementSpread"		"1.5"  //increased accuracy
 	"PelletScatterPitch"	"0.0"  //increased accuracy
 	"PelletScatterYaw"		"0.0"
@@ -63,7 +63,7 @@ WeaponData
 	"CharacterPenetrationMaxDistance" "8192" // Shooting through infected is doesn't count against penetration count out to this range
 
 	"Damage"			"300"	// 22
-	"Range"				"9216"
+	"Range"				"9000"
 	"RangeModifier"		"1"	// 0.96
 	"Bullets"			"1"
 	"CycleTime"			"0.5"
@@ -91,7 +91,7 @@ WeaponData
 
 	"clip_size"			"6"
 	
-	"primary_ammo"			"AMMO_TYPE_HUNTINGRIFLE"
+	"primary_ammo"			"AMMO_TYPE_SNIPERRIFLE"
 	"secondary_ammo"		"None"
 
 	"weight"			"5"

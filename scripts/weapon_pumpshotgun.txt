@@ -7,10 +7,10 @@ WeaponData
 	"SpreadDecay"			"6"
 	"MinDuckingSpread"		"0"
 	"MinStandingSpread"		"0"
-	"MinInAirSpread"		"2.5"  //increased accuracy
+	"MinInAirSpread"		"1.0"  //increased accuracy
 	"MaxMovementSpread"		"1.5"  //increased accuracy
-	"PelletScatterPitch"	"2"  //increased accuracy
-	"PelletScatterYaw"		"3"
+	"PelletScatterPitch"	"1"  //increased accuracy
+	"PelletScatterYaw"		"1"
 	"ReloadDuration"		"0.396"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
@@ -61,7 +61,7 @@ WeaponData
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
 	"Damage"			"30"	// 22
-	"Range"				"4096"
+	"Range"				"4000"
 	"RangeModifier"		"0.75"	// 0.96
 	"Bullets"			"15"
 	"CycleTime"			"0.5"

@@ -22,7 +22,7 @@ WeaponData
 	"Rumble"			"1"
 	
 	"Damage"			"27"
-	"CycleTime"			"0.100"
+	"CycleTime"			"0.175"
 	
 	"ResponseRulesName"		"Chainsaw"
 	
@@ -48,7 +48,7 @@ WeaponData
 	"bucket"			"1"
 	"bucket_position"		"1"
 	
-	"clip_size"			"60"
+	"clip_size"			"45"
 
 	"primary_ammo"			"AMMO_TYPE_CHAINSAW"
 	"secondary_ammo"		"None"
