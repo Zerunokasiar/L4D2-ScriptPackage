@@ -1,21 +1,21 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"5.00"
-	"SpreadPerShot"			"30.0"
+	"VerticalPunch"			"3.00"
+	"SpreadPerShot"			"20.0"
 	"MaxSpread"				"5"
 	"SpreadDecay"			"6"
 	"MinDuckingSpread"		"0"
-	"MinStandingSpread"		"0"
+	"MinStandingSpread"		"0.1"
 	"MinInAirSpread"		"1.0"  //increased accuracy
 	"MaxMovementSpread"		"1.5"  //increased accuracy
-	"PelletScatterPitch"	"2"  //increased accuracy
-	"PelletScatterYaw"		"2"
+	"PelletScatterPitch"	"0"  //increased accuracy
+	"PelletScatterYaw"		"0"
 	"ReloadDuration"		"0.396"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
 	
-	"Tier"					"2"		// valid entries are 0, 1, 2
+	"Tier"					"1"		// valid entries are 0, 1, 2
 	
 	"ResponseRulesName"		"PumpShotgun"
 
@@ -55,15 +55,15 @@ WeaponData
 	"CanEquipWithShield"	"0"
 	
 	// Weapon characteristics:
-	"PenetrationNumLayers"		"2"
-	"PenetrationPower"			"20"
-	"PenetrationMaxDistance"	"512"
-	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
+	"PenetrationNumLayers"		"4"
+	"PenetrationPower"			"250"
+	"PenetrationMaxDistance"	"8192"
+	"CharacterPenetrationMaxDistance" "8192" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"20"	// 22
-	"Range"				"4000"
-	"RangeModifier"		"0.75"	// 0.96
-	"Bullets"			"15"
+	"Damage"			"250"	// 22
+	"Range"				"9000"
+	"RangeModifier"		"1.00"	// 0.96
+	"Bullets"			"1"
 	"CycleTime"			"0.5"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
@@ -89,9 +89,9 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"4"
+	"clip_size"			"6"
 	
-	"primary_ammo"			"AMMO_TYPE_AUTOSHOTGUN"
+	"primary_ammo"			"AMMO_TYPE_HUNTINGRIFLE"
 	"secondary_ammo"		"None"
 
 	"weight"			"5"

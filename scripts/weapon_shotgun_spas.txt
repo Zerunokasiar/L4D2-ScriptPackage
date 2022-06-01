@@ -59,15 +59,15 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"2"
-	"PenetrationPower"			"10"
+	"PenetrationPower"			"18"
 	"PenetrationMaxDistance"	"512"
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"10"
+	"Damage"			"18"
 	"Range"				"3000"
 	"RangeModifier"			"0.7"
 	"Bullets"			"15"
-	"CycleTime"			"0.086"
+	"CycleTime"			"0.150"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"Auto Shotgun"
@@ -91,9 +91,9 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"32"  //increased from 9
+	"clip_size"			"8"  //increased from 9
 	
-	"primary_ammo"			"AMMO_TYPE_HUNTINGRIFLE"
+	"primary_ammo"			"AMMO_TYPE_AUTOSHOTGUN"
 	"secondary_ammo"		"None"
 
 	"weight"			"5"
