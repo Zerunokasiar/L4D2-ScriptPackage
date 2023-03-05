@@ -53,13 +53,13 @@ WeaponData
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"5"
 	"PenetrationPower"			"1000"
-	"PenetrationMaxDistance"	"512"	// none
-	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
+	"PenetrationMaxDistance"	"8192"	// none
+	"CharacterPenetrationMaxDistance" "8192" // Shooting through infected is doesn't count against penetration count out to this range
 
 	"Damage"			"1000"
-	"Range"				"8000"
+	"Range"				"10000"
 	"RangeModifier"			"1.0"
-//	"GainRange"			"1500"	// range at which to use a gain curve to fall off to zero
+	"GainRange"			"2000"	// range at which to use a gain curve to fall off to zero
 	"Bullets"			"1"
 	"CycleTime"			"1"
 

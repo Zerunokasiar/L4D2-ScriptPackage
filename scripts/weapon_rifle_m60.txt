@@ -7,8 +7,8 @@ WeaponData
 	"SpreadDecay"			"7"		
 	"MinDuckingSpread"		"0"	
 	"MinStandingSpread"		"0.1" 	
-	"MinInAirSpread"		"3.0"
-	"MaxMovementSpread"		"5.5"
+	"MinInAirSpread"		"2.5"
+	"MaxMovementSpread"		"4.5"
 	"AddonAttachment"		"primary"
 	"Team" 					"Survivor"
 	
@@ -55,14 +55,14 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"3"
-	"PenetrationPower"			"48"
-	"PenetrationMaxDistance"	"8192"	// none
-	"CharacterPenetrationMaxDistance" "8192" // Shooting through infected is doesn't count against penetration count out to this range
+	"PenetrationPower"			"42"
+	"PenetrationMaxDistance"	"512"	// none
+	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"48"
-	"Range"				"8000"
-	"RangeModifier"			"1"
-	// "GainRange"			"2000"	// range at which to use a gain curve to fall off to zero
+	"Damage"			"42"
+	"Range"				"6000"
+	"RangeModifier"		"0.97"
+	"GainRange"			"2000"	// range at which to use a gain curve to fall off to zero
 	"Bullets"			"1"
 	"CycleTime"			"0.057"
 
