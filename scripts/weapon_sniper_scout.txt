@@ -1,18 +1,18 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"4.00"
-	"SpreadPerShot"			"25.0"
-	"MaxSpread"				"15"
-	"SpreadDecay"			"8"
+	"VerticalPunch"			"3.00"
+	"SpreadPerShot"			"20.0"
+	"MaxSpread"				"5"
+	"SpreadDecay"			"6"
 	"MinDuckingSpread"		"0"
-	"MinStandingSpread"		"0.1"
-	"MinInAirSpread"		"3"
-	"MaxMovementSpread"		"5.5"
+	"MinStandingSpread"		"0"
+	"MinInAirSpread"		"1.0"
+	"MaxMovementSpread"		"1.5"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
 	
-	"Tier"					"1"		// valid entries are 0, 1, 2
+	"Tier"					"2"		// valid entries are 0, 1, 2
 	
 	"ResponseRulesName"		"Sniper_Scout"
 	
@@ -42,11 +42,11 @@ WeaponData
 	"WeaponAutoAimScale"			"1.0"
 	// End Terror-specific Data ----------------
 
-	"MaxPlayerSpeed"		"210"
+	"MaxPlayerSpeed"		"240"
 	"WeaponType"			"sniper_rifle"
 	"WeaponPrice"			"4200"
-	"NoiseFactor"			"600"	// 1 second glow after firing
-	"WeaponArmorRatio"		"2.0"
+	// "NoiseFactor"			"600"	// 1 second glow after firing
+	"WeaponArmorRatio"		"1.7"
 	"CrosshairMinDistance"		"5"
 	"CrosshairDeltaDistance"	"3"
 	"BuiltRightHanded"		"1"
@@ -57,12 +57,12 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"4"
-	"PenetrationPower"			"450"
+	"PenetrationPower"			"250"
 	"PenetrationMaxDistance"	"8192"	// none
 	"CharacterPenetrationMaxDistance" "8192" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"450"
-	"Range"				"10000"
+	"Damage"			"250"
+	"Range"				"8000"
 	"RangeModifier"			"1.0"
 	"Bullets"			"1"
 	"CycleTime"			"0.600"
@@ -94,12 +94,12 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"5"
+	"clip_size"			"10"
 	
-	"primary_ammo"			"AMMO_TYPE_SHOTGUN"
+	"primary_ammo"			"AMMO_TYPE_HUNTINGRIFLE"
 	"secondary_ammo"		"None"
 
-	"weight"			"35"
+	"weight"			"25"
 	"item_flags"			"0"
 
 	"LoadoutSlots"	"2"
