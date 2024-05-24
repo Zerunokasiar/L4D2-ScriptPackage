@@ -4,13 +4,13 @@ WeaponData
 	"VerticalPunch"			"5.00"
 	"SpreadPerShot"			"30.0" //reduced from 30
 	"MaxSpread"				"5"
-	"SpreadDecay"			"6"
+	"SpreadDecay"			"5"
 	"MinDuckingSpread"		"0"
 	"MinStandingSpread"		"0"
-	"MinInAirSpread"		"1.0"  //increased accuracy
-	"MaxMovementSpread"		"1.5"  //increased accuracy
-	"PelletScatterPitch"	"3"  //increased accuracy
-	"PelletScatterYaw"		"3"  //decreased accuracy
+	"MinInAirSpread"		"0.5"  //increased accuracy
+	"MaxMovementSpread"		"0.5"  //increased accuracy
+	"PelletScatterPitch"	"3.0"  //increased accuracy
+	"PelletScatterYaw"		"3.0"  //decreased accuracy
 	"ReloadDuration"		"0.396"
 	"AddonAttachment"		"primary"
 	"team"					"survivor"

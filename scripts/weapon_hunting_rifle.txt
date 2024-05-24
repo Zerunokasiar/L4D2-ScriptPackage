@@ -1,14 +1,14 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"1.55"
-	"SpreadPerShot"			"1.00"
-	"MaxSpread"				"15"
-	"SpreadDecay"			"8"
+	"VerticalPunch"			"1.25"
+	"SpreadPerShot"			"1.25"
+	"MaxSpread"				"10"
+	"SpreadDecay"			"7"
 	"MinDuckingSpread"		"0.0"
 	"MinStandingSpread"		"0.1"
-	"MinInAirSpread"		"2.5"
-	"MaxMovementSpread"		"4.5"
+	"MinInAirSpread"		"2.0"
+	"MaxMovementSpread"		"3.5"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
 
@@ -37,7 +37,7 @@ WeaponData
 	"WeaponAutoAimScale"			"1.0"
 	// End Terror-specific Data ----------------
 
-	"MaxPlayerSpeed"		"220"
+	"MaxPlayerSpeed"		"230"
 	"WeaponType"			"sniper_rifle"
 	"WeaponPrice"			"4200"
 	"WeaponArmorRatio"		"1.7"

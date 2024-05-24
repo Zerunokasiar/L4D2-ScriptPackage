@@ -4,11 +4,11 @@ WeaponData
 	"VerticalPunch"			"4.00"
 	"SpreadPerShot"			"25.0"
 	"MaxSpread"				"5"
-	"SpreadDecay"			"6"
+	"SpreadDecay"			"5"
 	"MinDuckingSpread"		"0"
 	"MinStandingSpread"		"0"
-	"MinInAirSpread"		"1.0"  //increased accuracy
-	"MaxMovementSpread"		"1.5"  //increased accuracy
+	"MinInAirSpread"		"0.5"  //increased accuracy
+	"MaxMovementSpread"		"0.5"  //increased accuracy
 	"PelletScatterPitch"	"4.5"  //increased accuracy
 	"PelletScatterYaw"		"4.5"
 	"ReloadDuration"		"0.396"

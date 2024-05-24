@@ -1,10 +1,10 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"0.50"
-	"SpreadPerShot"			"0.50"
+	"VerticalPunch"			"0.25"
+	"SpreadPerShot"			"0.25"
 	"MaxSpread"				"20"
-	"SpreadDecay"			"6"
+	"SpreadDecay"			"4"
 	"MinDuckingSpread"		"0.25"
 	"MinStandingSpread"		"0.50"
 	"MinInAirSpread"		"1.0"
@@ -61,8 +61,8 @@ WeaponData
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
 	"Damage"			"45"
-	"Range"				"4000"
-	"RangeModifier"			"0.84"
+	"Range"				"5000"
+	"RangeModifier"			"0.90"
 	"Bullets"			"1"
 	"CycleTime"			"0.100"
 
