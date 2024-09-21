@@ -1,14 +1,14 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"1.25"
-	"SpreadPerShot"			"1.25"
-	"MaxSpread"				"35"
-	"SpreadDecay"			"7"
-	"MinDuckingSpread"		"0.25"
-	"MinStandingSpread"		"0.50"
-	"MinInAirSpread"		"2.0"
-	"MaxMovementSpread"		"3.5"
+	"VerticalPunch"			"0.50"
+	"SpreadPerShot"			"0.50"
+	"MaxSpread"				"30"
+	"SpreadDecay"			"5"
+	"MinDuckingSpread"		"0.10"
+	"MinStandingSpread"		"0.25"
+	"MinInAirSpread"		"1.5"
+	"MaxMovementSpread"		"2.5"
 	"AddonAttachment"		"primary"
 	"Team" 					"Survivor"
 	
@@ -64,7 +64,7 @@ WeaponData
 	"RangeModifier"			"0.97"
 	"GainRange"			"2000"	// range at which to use a gain curve to fall off to zero
 	"Bullets"			"1"
-	"CycleTime"			"0.075"
+	"CycleTime"			"0.055"
 
 	"TimeToIdle"			"1.5"
 	"IdleInterval"			"60"
@@ -97,7 +97,7 @@ WeaponData
 	"primary_ammo"			"AMMO_TYPE_ASSAULTRIFLE"
 	"secondary_ammo"		"None"
 
-	"weight"			"25"
+	"weight"			"15"
 	"item_flags"			"0"
 
 	"LoadoutSlots"	"2"

@@ -59,11 +59,11 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"2"
-	"PenetrationPower"			"24"
+	"PenetrationPower"			"30"
 	"PenetrationMaxDistance"	"512"
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"24"
+	"Damage"			"30"
 	"Range"				"2000"
 	"RangeModifier"			"0.7"
 	"Bullets"			"15"
@@ -91,7 +91,7 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"8"  //increased from 9
+	"clip_size"			"7"  //increased from 9
 	
 	"primary_ammo"			"AMMO_TYPE_AUTOSHOTGUN"
 	"secondary_ammo"		"None"
