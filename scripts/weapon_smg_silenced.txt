@@ -1,12 +1,12 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"0.75"
-	"SpreadPerShot"			"0.75"
+	"VerticalPunch"			"0.50"
+	"SpreadPerShot"			"0.25"
 	"MaxSpread"				"25"
 	"SpreadDecay"			"5"
-	"MinDuckingSpread"		"0.75"
-	"MinStandingSpread"		"1.00"
+	"MinDuckingSpread"		"0.50"
+	"MinStandingSpread"		"0.75"
 	"MinInAirSpread"		"1.0"
 	"MaxMovementSpread"		"1.5"
 	"AddonAttachment"		"primary"
@@ -58,17 +58,17 @@ WeaponData
 	
 	
 	// Weapon characteristics:
-	"PenetrationNumLayers"		"2"
-	"PenetrationPower"			"27"
+	"PenetrationNumLayers"		"3"
+	"PenetrationPower"			"33"
 	"PenetrationMaxDistance"	"512"	// none
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"27"
+	"Damage"			"33"
 	"GainRange"			"1000"
 	"Range"				"4000"
 	"RangeModifier"			"0.84"
 	"Bullets"			"1"
-	"CycleTime"			"0.063"
+	"CycleTime"			"0.050"
 
 	"TimeToIdle"			"2"
 	"IdleInterval"			"20"
@@ -96,7 +96,7 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"40"
+	"clip_size"			"33"
 	
 	"primary_ammo"			"AMMO_TYPE_SMG"
 	"secondary_ammo"		"None"

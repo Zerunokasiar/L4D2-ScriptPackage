@@ -4,7 +4,7 @@ WeaponData
 	"VerticalPunch"			"0.25"
 	"SpreadPerShot"			"0.25"
 	"MaxSpread"				"20"
-	"SpreadDecay"			"4"
+	"SpreadDecay"			"5"
 	"MinDuckingSpread"		"0.25"
 	"MinStandingSpread"		"0.50"
 	"MinInAirSpread"		"1.0"
@@ -12,7 +12,9 @@ WeaponData
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
 	
-	"Tier"					"2"		// valid entries are 0, 1, 2
+	"NoiseFactor"			"20"	// 1 second glow after firing
+	
+	"Tier"					"1"		// valid entries are 0, 1, 2
 	
 	"ResponseRulesName"		"SMG_MP5"
 	
@@ -61,6 +63,7 @@ WeaponData
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
 	"Damage"			"45"
+	"GainRange"			"1000"
 	"Range"				"5000"
 	"RangeModifier"			"0.90"
 	"Bullets"			"1"
