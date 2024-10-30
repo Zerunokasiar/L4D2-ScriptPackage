@@ -1,14 +1,14 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"1.25"
-	"SpreadPerShot"			"1.25"
-	"MaxSpread"				"30"
+	"VerticalPunch"			"1.0"
+	"SpreadPerShot"			"1.0"
+	"MaxSpread"				"10"
 	"SpreadDecay"			"5"
-	"MinDuckingSpread"		"0.25"
-	"MinStandingSpread"		"0.50"
+	"MinDuckingSpread"		"0.1"
+	"MinStandingSpread"		"0.3"
 	"MinInAirSpread"		"1.5"
-	"MaxMovementSpread"		"2.5"
+	"MaxMovementSpread"		"2.1"
 	"DeployDuration"		"0.5"
 	"DualDeployDuration"	"0.65"
 	"AddonAttachment"		"pistol"
@@ -60,15 +60,15 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"3"
-	"PenetrationPower"			"40"
+	"PenetrationPower"			"70"
 	"PenetrationMaxDistance"	"512"	// none
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"45"
+	"Damage"			"70"
 	"Range"				"3000"
 	"RangeModifier"			"0.75"
 	"Bullets"			"1"
-	"CycleTime"			"0.1"
+	"CycleTime"			"0.175"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"Pistol"
@@ -98,7 +98,7 @@ WeaponData
 	"bucket"			"1"
 	"bucket_position"		"0"
 
-	"clip_size"			"20"
+	"clip_size"			"7"
 	
 	"primary_ammo"			"AMMO_TYPE_PISTOL"
 	"secondary_ammo"		"None"

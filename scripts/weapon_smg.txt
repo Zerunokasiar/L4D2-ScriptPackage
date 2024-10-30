@@ -1,12 +1,12 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"0.75"
-	"SpreadPerShot"			"0.25"
+	"VerticalPunch"			"0.6"
+	"SpreadPerShot"			"0.3"
 	"MaxSpread"				"25"
 	"SpreadDecay"			"5"
-	"MinDuckingSpread"		"0.75"
-	"MinStandingSpread"		"1.00"
+	"MinDuckingSpread"		"0.6"
+	"MinStandingSpread"		"1.0"
 	"MinInAirSpread"		"1.0"
 	"MaxMovementSpread"		"1.5"
 	"AddonAttachment"		"primary"
@@ -95,7 +95,7 @@ WeaponData
 	"primary_ammo"			"AMMO_TYPE_SMG"
 	"secondary_ammo"		"None"
 
-	"weight"			"5"
+	"weight"			"10"
 	"item_flags"			"0"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)

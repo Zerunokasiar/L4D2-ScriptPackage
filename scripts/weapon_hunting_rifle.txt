@@ -1,14 +1,14 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"1.25"
-	"SpreadPerShot"			"1.25"
+	"VerticalPunch"			"1.0"
+	"SpreadPerShot"			"1.0"
 	"MaxSpread"				"10"
-	"SpreadDecay"			"7"
+	"SpreadDecay"			"8"
 	"MinDuckingSpread"		"0.0"
 	"MinStandingSpread"		"0.1"
-	"MinInAirSpread"		"2.0"
-	"MaxMovementSpread"		"3.5"
+	"MinInAirSpread"		"2.1"
+	"MaxMovementSpread"		"2.8"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
 

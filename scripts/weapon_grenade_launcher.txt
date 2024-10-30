@@ -1,14 +1,14 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"1.00"
-	"SpreadPerShot"			"1.00"
+	"VerticalPunch"			"1.0"
+	"SpreadPerShot"			"1.0"
 	"MaxSpread"				"5"
 	"SpreadDecay"			"5"
-	"MinDuckingSpread"		"0"
-	"MinStandingSpread"		"0"
-	"MinInAirSpread"		"0.5"
-	"MaxMovementSpread"		"0.5"
+	"MinDuckingSpread"		"0.0"
+	"MinStandingSpread"		"0.0"
+	"MinInAirSpread"		"0.0"
+	"MaxMovementSpread"		"0.0"
 	"ReloadDuration"		"-1"
 	"AddonAttachment"		"primary"
 	"Team" 					"Survivor"
@@ -94,7 +94,7 @@ WeaponData
 	"primary_ammo"		"AMMO_TYPE_GRENADELAUNCHER"
 	"secondary_ammo"	"None"
 
-	"weight"			"25"
+	"weight"			"20"
 	"item_flags"		"0"
 
 	"LoadoutSlots"		"2"

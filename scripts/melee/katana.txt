@@ -62,7 +62,7 @@ MeleeWeaponData
 	SoundData
 	{
 		"melee_miss"			"Katana.Miss"
-		"melee_hit"				"Katana.ImpactFlesh"
+		"melee_hit"			"Katana.ImpactFlesh"
 		"melee_hit_world"		"Katana.ImpactWorld"
 	}
 
@@ -82,24 +82,27 @@ MeleeWeaponData
 			"enddir"		"W"
 			"duration"		"1"
 			"starttime"		"0.1"
-			"endtime"		"0.25"
+//			"endtime"		"0.25"
+			"endtime"		"0.5"
 			"activity"		"ACT_VM_HITCENTER"
 			"player_activity"	"ACT_SHOOT_E2W_KATANA"
 			"player_activity_idle"	"ACT_SHOOT_E2W_IDLE_KATANA"
 			"force_dir"		"4 -10 0"
 		}
-		"slash2"
+			"slash2"
 		{
 			"startdir"		"W"
 			"enddir"		"E"
 			"duration"		"1.3"
 			"starttime"		"0.0"
-			"endtime"		"0.2"
+//			"endtime"		"0.2"
+			"endtime"		"0.4"
 			"activity"		"ACT_VM_HITLEFT"
 			"player_activity"	"ACT_SHOOT_W2E_KATANA"
 			"player_activity_idle"	"ACT_SHOOT_W2E_IDLE_KATANA"
 			"force_dir"		"4 10 -10"
 		}
+		
 	}	
 	"strongattacks"
 	{
@@ -137,7 +140,17 @@ MeleeWeaponData
 
 
 	// hud textures
-	"sprite_active"		"icon_katana"
+	"TextureData"
+	{
+		"sprite_active"
+		{
+				"file"		"vgui/hud/icon_katana"
+				"x"		"0"
+				"y"		"0"
+				"width"		"128"
+				"height"	"64"	
+		}
+	}
 }
 
 

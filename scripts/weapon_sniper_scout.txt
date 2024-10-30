@@ -1,14 +1,14 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"3.00"
-	"SpreadPerShot"			"20.0"
+	"VerticalPunch"			"3.0"
+	"SpreadPerShot"			"5.0"
 	"MaxSpread"				"5"
-	"SpreadDecay"			"6"
+	"SpreadDecay"			"8"
 	"MinDuckingSpread"		"0.0"
 	"MinStandingSpread"		"0.1"
 	"MinInAirSpread"		"1.5"
-	"MaxMovementSpread"		"2.5"
+	"MaxMovementSpread"		"2.1"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
 	
@@ -99,7 +99,7 @@ WeaponData
 	"primary_ammo"			"AMMO_TYPE_HUNTINGRIFLE"
 	"secondary_ammo"		"None"
 
-	"weight"			"25"
+	"weight"			"20"
 	"item_flags"			"0"
 
 	"LoadoutSlots"	"2"

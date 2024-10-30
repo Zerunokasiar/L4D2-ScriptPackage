@@ -86,7 +86,8 @@ MeleeWeaponData
 			"player_activity" 	"ACT_SHOOT_N2S_FRYINGPAN"
 			"player_activity_idle"	"ACT_SHOOT_N2S_IDLE_FRYINGPAN"
 			"force_dir"		"5 -5 3"
-		}	
+		}
+
 		"bonk2"
 		{
 			"startdir"		"W"
@@ -99,6 +100,7 @@ MeleeWeaponData
 			"player_activity_idle"	"ACT_SHOOT_W2E_IDLE_FRYINGPAN"
 			"force_dir"		"10 -7 2"
 		}
+		
 		"bonk3"
 		{
 			"startdir"		"E"
@@ -155,5 +157,15 @@ MeleeWeaponData
 	}	
 	
 	// hud textures
-	"sprite_active"		"icon_machete"
+	"TextureData"
+	{
+		"sprite_active"
+		{
+				"file"		"vgui/hud/icon_machete"
+				"x"		"0"
+				"y"		"0"
+				"width"		"128"
+				"height"	"64"	
+		}
+	}
 }
