@@ -1,13 +1,13 @@
 MeleeWeaponData
 {
 	// Time before you can swing the weapon again
-	"refire_delay"	"0.88"
+	"refire_delay"	"1.0"
 	
 	// Model to show in firstperson
-	"viewmodel"		"models/weapons/melee/v_pitchfork.mdl"
+	"viewmodel"		"models/weapons/melee/v_fireaxe.mdl"
 	
 	// Model to show in thirdperson
-	"playermodel"	"models/weapons/melee/w_pitchfork.mdl"
+	"playermodel"	"models/weapons/melee/w_fireaxe.mdl"
 	
 	// Animation prefix - not sure what this is used for just yet
 	"anim_prefix"	"anim"
@@ -28,7 +28,7 @@ MeleeWeaponData
 	// RUMBLE_L4D_PLAYER_MELEE_HIT = 42
 	"rumble_effect"	"42"
 
-	"decapitates" "0"
+	"decapitates" "1"
 
 	// Third person animations
 	"activity_idle"		"ACT_IDLE_AXE"
@@ -45,58 +45,70 @@ MeleeWeaponData
 	"activity_runcalm" 	"ACT_RUN_AXE"		// there isn't a calm run with an axe
 	"activity_pulled" 	"ACT_TERROR_PULLED_RUN_RIFLE"
 	"activity_jump" 	"ACT_JUMP_AXE"
-
 	"activity_deploy"		"ACT_DEPLOY_RIFLE"
-	
 	"activity_shove"		"ACT_TERROR_SHOVED_FORWARD_BAT"
 
 	"addon_attachment"		"melee"
-	"addon_offset"			"13 -1 0"
-	"addon_angles"			"175 -80 95"
-	
+	"addon_offset"			"20 -3 1"
+	"addon_angles"			"0 80 -90"
+
 	// Sound data
 	// define the hit and miss sounds
 	SoundData
 	{
-		"melee_miss"			"Pitchfork.Miss"
-		"melee_hit"			"Pitchfork.ImpactFlesh"
-		"melee_hit_world"	    	"Pitchfork.ImpactWorld"
+		"melee_miss"		"Axe.Miss"
+		"melee_hit"		"Axe.ImpactFlesh"
+		"melee_hit_world"	"Axe.ImpactWorld"
 	}
-
+		
 	// Player animation to fire, 0 = PLAYERANIMEVENT_MELEE for now
 	"player_anim_event"		"0"		// TODO - convert from string to PlayerAnimEvent_t
 	
 	// How long after attacking until the weapon enters its idle animation state
-	"weapon_idle_time"	"0.8"
+	"weapon_idle_time"	"1.6"
 	
 	// Attack animations (primary and secondary)
 	"primaryattacks"
 	{
 		"slash1"
 		{
-			"startdir"		"S"
-			"enddir"		"N"
-			"duration"		".6"
-			"starttime"		"0.11"
-//			"endtime"		"0.25"
-			"endtime"		"0.69"
+			"startdir"		"E"
+			"enddir"		"W"
+			"duration"		"1.23"
+			"starttime"		"0.1"
+			"endtime"		"0.33"
 			"activity"		"ACT_VM_PRIMARYATTACK"
 			"player_activity"	"ACT_SHOOT_E2W_AXE"
 			"player_activity_idle"	"ACT_SHOOT_E2W_IDLE_AXE"
-			"force_dir"		"10 -1 20"
+			"force_dir"		"5 -5 10"
 		}
 	}	
+	"strongattacks"
+	{
+		"strongattack1"
+		{
+				"startdir"		"N"
+				"enddir"		"S"
+				"duration"		"1.24"
+				"starttime"		"0.35"
+				"endtime"		"0.60"
+				"activity"		"ACT_VM_SWINGHARD"
+				"player_activity"	"ACT_SHOOT_STRONG_AXE"
+				"player_activity_idle"	"ACT_SHOOT_STRONG_IDLE_AXE"
+				"force_dir"		"10 0 6"
+		}
+	}
 	"secondaryattacks"
 	{
 		"shove1"
 		{
-			"startdir"		"W"
-			"enddir"		"E"
-			"duration"		"1.3"
-			"starttime"		"0.2"
-			"endtime"		"0.4"
+			"startdir"		"E"
+			"enddir"		"W"
+			"duration"		".73"
+			"starttime"		"0.1"
+			"endtime"		"0.26"
 			"activity"		"ACT_VM_SECONDARYATTACK"
-			"player_activity" "ACT_SHOOT_SECONDARY_AXE"
+			"player_activity"	"ACT_SHOOT_SECONDARY_AXE"
 			"player_activity_idle"	"ACT_SHOOT_SECONDARY_AXE"
 		}	
 	}	
@@ -106,7 +118,7 @@ MeleeWeaponData
 	{
 		"sprite_active"
 		{
-				"file"		"vgui/hud/icon_pitchfork"
+				"file"		"vgui/hud/icon_fireaxe"
 				"x"		"0"
 				"y"		"0"
 				"width"		"128"
