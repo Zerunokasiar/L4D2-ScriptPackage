@@ -1,8 +1,8 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"0.3"
-	"SpreadPerShot"			"0.3"   
+	"VerticalPunch"			"0.45"
+	"SpreadPerShot"			"0.45"   
 	"MaxSpread"				"35"
 	"SpreadDecay"			"7"		
 	"MinDuckingSpread"		"0.1"	
@@ -92,9 +92,9 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"120"
+	"clip_size"			"250"
 	
-	"primary_ammo"			"AMMO_TYPE_ASSAULTRIFLE"
+	"primary_ammo"			"AMMO_TYPE_M60"
 	"secondary_ammo"		"None"
 
 	"weight"			"30"
