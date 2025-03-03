@@ -59,12 +59,12 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"3"
-	"PenetrationPower"		"100"
+	"PenetrationPower"		"81"
 	"PenetrationMaxDistance"	"512"	// none
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"105"
-	"Range"				"3000"
+	"Damage"			"81"
+	"Range"				"4000"
 	"RangeModifier"			"0.75"
 	"Bullets"			"1"
 	"CycleTime"			"0.3"
@@ -93,7 +93,7 @@ WeaponData
 	"bucket"			"1"
 	"bucket_position"		"0"
 
-	"clip_size"			"8"
+	"clip_size"			"9"
 	
 	// custom ammo - adds dismemberment, and full damage on expert to kill infected
 	"primary_ammo"			"AMMO_TYPE_PISTOL_MAGNUM"

@@ -4,7 +4,7 @@ WeaponData
 	"VerticalPunch"			"3.6"
 	"SpreadPerShot"			"3.6"
 	"MaxSpread"				"5"
-	"SpreadDecay"			"5"
+	"SpreadDecay"			"4"
 	"MinDuckingSpread"		"0.0"
 	"MinStandingSpread"		"0.0"
 	"MinInAirSpread"		"0.0"  //increased accuracy
