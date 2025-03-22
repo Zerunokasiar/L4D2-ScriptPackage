@@ -7,10 +7,10 @@ WeaponData
 	"SpreadDecay"			"4"
 	"MinDuckingSpread"		"0.0"
 	"MinStandingSpread"		"0.0"
-	"MinInAirSpread"		"0.0"  //increased accuracy
-	"MaxMovementSpread"		"0.0"  //increased accuracy
-	"PelletScatterPitch"	"1.0"  //increased accuracy
-	"PelletScatterYaw"		"1.0"
+	"MinInAirSpread"		"0.6"  //increased accuracy
+	"MaxMovementSpread"		"1.0"  //increased accuracy
+	"PelletScatterPitch"	"1.5"  //increased accuracy
+	"PelletScatterYaw"		"1.5"
 	"ReloadDuration"		"0.396"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
