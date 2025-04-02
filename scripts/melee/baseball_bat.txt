@@ -128,30 +128,6 @@ MeleeWeaponData
 			"player_activity_idle"	"ACT_SHOOT_W2E_IDLE_BAT"
 			"force_dir"		"15 40 -10"
 		}
-		"slash5"
-		{
-				"startdir"		"E"
-				"enddir"		"W"
-				"duration"		"1" //37 frames @ 37fps
-				"starttime"		"0.46" //starts at 17
-				"endtime"		".78" //ends at 22
-				"activity"		"ACT_VM_SWINGHARD"
-				"player_activity"	"ACT_SHOOT_STRONG_BAT"
-				"player_activity_idle"	"ACT_SHOOT_STRONG_IDLE_BAT"
-				"force_dir"		"22 -30 35"
-		}
-		"slash6"
-		{
-			"startdir"		"NW"
-			"enddir"			"SE"
-			"duration"		"0.9"
-			"starttime"		"0.0"
-			"endtime"			"0.2"
-			"activity"		"ACT_VM_HITLEFT"
-			"player_activity"	"ACT_SHOOT_W2E_BAT"
-			"player_activity_idle"	"ACT_SHOOT_W2E_IDLE_BAT"
-			"force_dir"		"15 40 -10"
-		}
 	}	
 	"strongattacks"
 	{
