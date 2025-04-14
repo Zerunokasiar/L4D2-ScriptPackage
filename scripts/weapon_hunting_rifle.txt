@@ -3,8 +3,8 @@ WeaponData
 	// Terror-specific Data --------------------
 	"VerticalPunch"			"1.5"
 	"SpreadPerShot"			"1.5"
-	"MaxSpread"				"15"
-	"SpreadDecay"			"8"
+	"MaxSpread"				"25"
+	"SpreadDecay"			"7"
 	"MinDuckingSpread"		"0.0"
 	"MinStandingSpread"		"0.1"
 	"MinInAirSpread"		"2.1"
@@ -90,7 +90,7 @@ WeaponData
 
 	"clip_size"			"20"
 
-	"primary_ammo"			"AMMO_TYPE_SNIPERRIFLE"
+	"primary_ammo"			"AMMO_TYPE_ASSAULTRIFLE"
 	"secondary_ammo"		"None"
 
 	"weight"			"25"
