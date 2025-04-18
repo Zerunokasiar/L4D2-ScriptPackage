@@ -64,7 +64,7 @@ WeaponData
 	"RangeModifier"			"0.97"
 	"GainRange"			"2000"	// range at which to use a gain curve to fall off to zero
 	"Bullets"			"1"
-	"CycleTime"			"0.055"
+	"CycleTime"			"0.027"
 
 	"TimeToIdle"			"1.5"
 	"IdleInterval"			"60"
@@ -92,7 +92,7 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"30"
+	"clip_size"			"45"
 	
 	"primary_ammo"			"AMMO_TYPE_ASSAULTRIFLE"
 	"secondary_ammo"		"None"

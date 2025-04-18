@@ -58,15 +58,15 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"2"
-	"PenetrationPower"			"28"
+	"PenetrationPower"			"30"
 	"PenetrationMaxDistance"	"512"	// none
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"28"	// 22
+	"Damage"			"30"	// 22
 	"Range"				"2000"
 	"RangeModifier"		"0.7"	// 0.96
 	"Bullets"			"15"
-	"CycleTime"			"0.5"
+	"CycleTime"			"0.7"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"Pump Shotgun"
