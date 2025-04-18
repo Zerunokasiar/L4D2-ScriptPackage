@@ -1,14 +1,14 @@
 WeaponData
 {
 	// Terror-specific Data --------------------
-	"VerticalPunch"			"0.55"
-	"SpreadPerShot"			"0.55"
-	"MaxSpread"				"30"
+	"VerticalPunch"			"1.00"
+	"SpreadPerShot"			"1.00"
+	"MaxSpread"				"35"
 	"SpreadDecay"			"6"
-	"MinDuckingSpread"		"0.1"
-	"MinStandingSpread"		"0.3"
-	"MinInAirSpread"		"1.5"
-	"MaxMovementSpread"		"2.1"
+	"MinDuckingSpread"		"0.6"
+	"MinStandingSpread"		"1.0"
+	"MinInAirSpread"		"2.8"
+	"MaxMovementSpread"		"3.6"
 	"AddonAttachment"		"primary"
 	"Team" 					"Survivor"
 	
@@ -39,7 +39,7 @@ WeaponData
 
 	"Rumble"			"4"
 
-	"MaxPlayerSpeed" 		"230" 
+	"MaxPlayerSpeed" 		"220" 
 	"WeaponType" 			"rifle"
 	"WeaponPrice" 			"3100"
 	"WeaponArmorRatio" 		"1.4"
@@ -53,16 +53,16 @@ WeaponData
 	
 	// Weapon characteristics:
 	"PenetrationNumLayers"		"3"
-	"PenetrationPower"			"51"
+	"PenetrationPower"			"48"
 	"PenetrationMaxDistance"	"512"	// none
 	"CharacterPenetrationMaxDistance" "384" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"51"
+	"Damage"			"48"
 	"Range"				"6000"
 	"RangeModifier"			"0.97"
 	"GainRange"			"2000"	// range at which to use a gain curve to fall off to zero
 	"Bullets"			"1"
-	"CycleTime"			"0.071"
+	"CycleTime"			"0.092"
 
 	"TimeToIdle"			"1.5"
 	"IdleInterval"			"60"
@@ -91,12 +91,12 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"30"
+	"clip_size"			"100"
 	
 	"primary_ammo"			"AMMO_TYPE_ASSAULTRIFLE"
 	"secondary_ammo"		"None"
 
-	"weight"			"15"
+	"weight"			"25"
 	"item_flags"			"0"
 
 	"LoadoutSlots"	"2"

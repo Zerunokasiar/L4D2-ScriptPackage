@@ -41,7 +41,7 @@ WeaponData
 	"WeaponAutoAimScale"			"1.0"
 	// End Terror-specific Data ----------------
 
-	"MaxPlayerSpeed"		"220"
+	"MaxPlayerSpeed"		"230"
 	"WeaponType"			"sniper_rifle"
 	"WeaponPrice"			"4200"
 	"WeaponArmorRatio"		"1.7"
@@ -99,7 +99,7 @@ WeaponData
 	"primary_ammo"			"AMMO_TYPE_SNIPERRIFLE"
 	"secondary_ammo"		"None"
 
-	"weight"			"25"
+	"weight"			"20"
 	"item_flags"			"0"
 
 	"LoadoutSlots"	"2"

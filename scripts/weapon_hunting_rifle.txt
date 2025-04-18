@@ -93,7 +93,7 @@ WeaponData
 	"primary_ammo"			"AMMO_TYPE_ASSAULTRIFLE"
 	"secondary_ammo"		"None"
 
-	"weight"			"25"
+	"weight"			"20"
 	"item_flags"			"0"
 
 	"LoadoutSlots"	"2"
