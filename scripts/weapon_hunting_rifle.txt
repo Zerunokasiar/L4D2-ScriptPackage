@@ -90,7 +90,7 @@ WeaponData
 
 	"clip_size"			"20"
 
-	"primary_ammo"			"AMMO_TYPE_ASSAULTRIFLE"
+	"primary_ammo"			"AMMO_TYPE_SNIPERRIFLE"
 	"secondary_ammo"		"None"
 
 	"weight"			"20"

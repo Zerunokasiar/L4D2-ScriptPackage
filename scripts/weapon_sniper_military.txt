@@ -96,7 +96,7 @@ WeaponData
 
 	"clip_size"			"6"
 	
-	"primary_ammo"			"AMMO_TYPE_SNIPERRIFLE"
+	"primary_ammo"			"AMMO_TYPE_HUNTINGRIFLE"
 	"secondary_ammo"		"None"
 
 	"weight"			"20"
